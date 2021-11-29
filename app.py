@@ -1,4 +1,4 @@
-import keyboard
+# import keyboard
 # importing csv module
 import csv
 
@@ -29,8 +29,8 @@ def newDonation(name, amount):
 
 while True:
     name = input("Name : ")
-    amo = input("Donation: ")
-    Dona = newDonation(name, amo)
+    amount = input("Donation: ")
+    Dona = newDonation(name, amount)
     CVS_reload()
     rows.append(Dona)
     writeCVS()
