@@ -36,18 +36,20 @@ while True:
     writeCVS()
     # get total number of rows
     print("You now have of rows: %d"%(len(rows)))
+    press = input("Press Q for exit! or press C for continue: ")
+    if press == "q":
+        break
     # print("Press Q for exit! or press C for continue")
     # try:
-    #     if keyboard.read_key() == 'q':  # if key 'q' is pressed 
+    #     if keyboard.wait('q'):  # if key 'q' is pressed 
     #        print('You Pressed q!')
     #        print('exit!')
     #        break  # finishing the loop
-    #     if keyboard.read_key() == 'space':  # if key 'space' is pressed 
+    #     if keyboard.wait('space'):  # if key 'space' is pressed 
     #        print('You Pressed space!')
     #        print('continue!')
     #        continue  # continue the loop
     # except:
     #   print("Something wrong we have error here")
-
 
 
